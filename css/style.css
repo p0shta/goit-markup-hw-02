@@ -1,14 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  color: #212121;
 }
 
 :root {
   --main-title-color: #ffffff;
-  --second-title-color: #212121;
   --accent-color: #2196f3;
   --main-text-color: #757575;
-  --main-link-color: #212121;
 }
 
 .list {
@@ -36,9 +35,10 @@ body {
 
 .nav-link {
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-link-color);
+  color: inherit;
 }
 
 .nav-link:hover,
@@ -48,9 +48,10 @@ body {
 
 .contacts-link {
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-link-color);
+  color: inherit;
 }
 
 .contacts-link:hover,
@@ -70,6 +71,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
   color: var(--main-title-color);
 }
 
@@ -80,6 +82,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
+  text-align: center;
   background-color: var(--accent-color);
   cursor: pointer;
 }
@@ -92,7 +95,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--second-title-color);
 }
 
 .features-text {
@@ -108,7 +110,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  text-align: center;
 }
 
 /* ---------team--------- */
@@ -118,20 +120,22 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  text-align: center;
 }
 
 .team-after-title {
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
+  text-align: center;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--main-text-color);
 }
 
@@ -172,4 +176,49 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+
+/* ---------page portfolio--------- */
+/* ---------portfolio--------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
