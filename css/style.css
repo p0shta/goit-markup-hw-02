@@ -18,6 +18,10 @@ body {
   text-decoration: none;
 }
 
+.nav-link.current {
+  color: var(--accent-color);
+}
+
 /* ---------header--------- */
 
 .header-logo {
