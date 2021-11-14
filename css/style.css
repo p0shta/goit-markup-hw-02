@@ -182,7 +182,7 @@ body {
 }
 
 /* ---------works--------- */
-.works > .box {
+.works.box {
     padding-top: 0;
 }
 
@@ -204,6 +204,10 @@ body {
 
 /* ---------team--------- */
 
+.team.box {
+    padding-top: 48px;
+}
+
 .team {
     background-color: #f5f4fa;
 }
@@ -224,15 +228,12 @@ body {
     margin-right: 30px;
 }
 
-/* .team-item img {
-    margin-bottom: 30px;
-} */
-
 .team-wrap {
     padding: 30px 0;
 }
 
 .team-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
